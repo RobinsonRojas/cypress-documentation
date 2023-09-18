@@ -32,14 +32,14 @@
 }
 
 // beta flag in sidebar
-.theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-2.menu__list-item.beta {
+.theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-2.menu__list-item.new_label {
   a::after {
     background-color: var(--cypress-color-indigo-400);
     color: #fff;
-    content: "Beta";
+    content: "New";
     font-size: .7rem;
     border-radius: 5px;
     margin-left: 5px;
-    padding: 2px 5px;
+    padding: 3px 5px 2px;
   }
 }
